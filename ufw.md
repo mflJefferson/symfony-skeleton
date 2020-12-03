@@ -43,8 +43,8 @@ $   sudo ufw enable
 
 ### Para permitir outras conexões
 ```
-$   sudo ufw allow http comment 'SSH'
-$   sudo ufw allow https comment 'SSH'
+$   sudo ufw allow http
+$   sudo ufw allow https
 ```
 
 ### Para permitir portas em ranges especificas
