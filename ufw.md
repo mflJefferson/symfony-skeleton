@@ -93,3 +93,17 @@ Status: active
 [ 1] 22                         ALLOW IN    15.15.15.0/24
 [ 2] 80                         ALLOW IN    Anywhere
 ```
+#### Comando para deletar a regra
+```
+$   sudo ufw delete 2
+```
+
+### Desativando o UFW
+```
+$   sudo ufw disable
+```
+### Resetando o UFW
+
+```
+$   sudo ufw reset
+```
